@@ -71,7 +71,7 @@ class EngineBlock_Application_Bootstrapper
     protected function _bootstrapSessionConfiguration()
     {
         session_set_cookie_params(
-            0,
+            31536000, // One year
             $this->_application->getConfigurationValue('cookie_path', '/'),
             '',
             $this->_application->getConfigurationValue('use_secure_cookies', true),
