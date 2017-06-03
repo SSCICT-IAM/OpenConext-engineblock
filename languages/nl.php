@@ -13,7 +13,7 @@ return array(
     'processing_long'       => 'Wees a.u.b. geduldig, het kan even duren...',
     'go_back'               => '&lt;&lt; Ga terug',
     'note'                  => 'Mededeling',
-    'note_no_script'        => 'Jouw browser ondersteunt geen JavaScript. Je moet op de onderstaande knop drukken om door te gaan.',
+    'note_no_script'        => 'Uw browser ondersteunt geen JavaScript. Druk op onderstaande knop om door te gaan.',
     'authentication_urls'   => 'Authenticatie URLs',
     'timestamp'             => 'Timestamp',
 
@@ -27,120 +27,120 @@ return array(
     'statusMessage'         => 'Statusbericht',
 
     //WAYF
-    'idp_selection_title'       => 'Identity Provider Selectie - %s',
-    'idp_selection_subheader'   => 'Login via je eigen instelling',
-    'search'                    => 'Zoek een instelling...',
-    'idp_selection_desc'        => 'Selecteer een instelling en login bij <i>%s</i>',
+    'idp_selection_title'       => 'Organisatie selectie - %s',
+    'idp_selection_subheader'   => 'Login via uw eigen organisatie',
+    'search'                    => 'Zoek een organisatie...',
+    'idp_selection_desc'        => 'Selecteer een organisatie om aan te melden bij <i>%s</i>',
     'our_suggestion'            => 'Eerder gekozen:',
-    'idps_with_access'          => 'Instellingen met toegang',
+    'idps_with_access'          => 'Organisaties met toegang',
     'no_access'                 => 'Geen toegang.',
     'no_access_more_info'       => 'Geen toegang. &raquo;',
     'no_results'                => 'Geen resultaten gevonden.',
-    'log_in_to'                 => 'Selecteer een instelling en login bij',
+    'log_in_to'                 => 'Selecteer een organisatie om aan te melden bij',
     'press_enter_to_select'     => 'Druk op enter om te kiezen',
-    'loading_idps'              => 'Instellingen worden geladen...',
+    'loading_idps'              => 'Organisaties worden geladen...',
     'edit'                      => 'Bewerken',
     'done'                      => 'Klaar',
     'remove'                    => 'Verwijderen',
     'request_access'            => 'Toegang aanvragen',
-    'no_idp_results'            => 'Je zoekterm heeft geen resultaten opgeleverd.',
-    'no_idp_results_request_access' => 'Kun je je instelling niet vinden? &nbsp;<a href="#no-access" class="noaccess">Vraag toegang aan</a>&nbsp;of pas je zoekopdracht aan.',
-    'more_idp_results'          => '%d resultaten worden niet getoond. Verfijn je zoekopdracht voor specifiekere resultaten.',
+    'no_idp_results'            => 'Uw zoekterm heeft geen resultaten opgeleverd.',
+    'no_idp_results_request_access' => 'Kunt u uw organisatie niet vinden? &nbsp;<a href="#no-access" class="noaccess">Vraag toegang aan</a>&nbsp;of pas uw zoekopdracht aan.',
+    'more_idp_results'          => '%d resultaten worden niet getoond. Verfijn uw zoekopdracht voor specifiekere resultaten.',
     'return_to_sp'              => 'Keer terug naar Service Provider',
 
     //Footer
     'service_by'            => 'Deze dienst is verbonden via',
-    'serviceprovider_link'  => '<a href="https://www.surfconext.nl/" target="_blank">SURFconext</a>',
+    'serviceprovider_link'  => '<a href="https://www.ssc-ict.nl/" target="_blank">SSC-ICT</a>',
     'terms_of_service_link' => '<a href="https://wiki.surfnet.nl/display/conextsupport/Terms+of+Service+%28NL%29" target="_blank">Gebruiksvoorwaarden</a>',
-    'footer'                => '<a href="https://www.surfconext.nl/" target="_blank">SURFconext</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://wiki.surfnet.nl/display/conextsupport/Terms+of+Service+%28NL%29">Gebruiksvoorwaarden</a>',
+    'footer'                => '<a href="https://www.ssc-ict.nl/" target="_blank">SSC-ICT</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://wiki.surfnet.nl/display/conextsupport/Terms+of+Service+%28NL%29">Gebruiksvoorwaarden</a>',
 
     //Help
     'help'                  => 'Help',
     'help_header'           => 'Help',
-    'help_description'      => '<p>Heb je vragen over dit scherm of de SURFconext dienstverlening, bekijk dan de antwoorden bij de FAQ hieronder.</p>
+    'help_description'      => '<p>Heeft u vragen over dit scherm of de SSC-ICT dienstverlening, bekijk dan de antwoorden bij de FAQ hieronder.</p>
 
-    <p>Staat je vraag er niet bij, of ben je niet tevreden met een antwoord? Bezoek dan <a href="https://wiki.surfnet.nl/display/conextsupport/">de SURFconext support pagina</a> of stuur een mail naar <a href="mailto:help@surfconext.nl">help@surfconext.nl</a></p>',
+    <p>Staat uw vraag er niet bij, of bent u niet tevreden met een antwoord? Stuur dan een mail naar <a href="mailto:FederatieveServices@minbzk.nl">FederatieveServices@minbzk.nl</a></p>',
 
     'close_question'        =>      'Sluit',
 
     //Help questions
 		// general help questions
-    'question_surfconext'               =>      'Wat is SURFconext?',
-    'answer_surfconext'                 =>      '<p>SURFconext is een verbindingsinfrastructuur die een aantal bouwstenen voor online samenwerking met elkaar verbindt. Die bouwstenen zijn services voor federatieve authenticatie, groepsbeheer, sociale netwerken en cloud applicaties van verschillende aanbieders. Met SURFconext is het mogelijk om met je eigen instellingsaccount toegang te krijgen tot diensten van verschillende aanbieders.</p>',
-    'question_log_in'                   =>      'Hoe werkt inloggen via SURFconext?',
+    'question_surfconext'               =>      'Wat is OpenConext?',
+    'answer_surfconext'                 =>      '<p>OpenConext is een verbindingsinfrastructuur die een aantal bouwstenen voor online samenwerking met elkaar verbindt. Die bouwstenen zijn services voor federatieve authenticatie, groepsbeheer, sociale netwerken en cloud applicaties van verschillende aanbieders. Met OpenConext is het mogelijk om met uw eigen organisatieaccount toegang te krijgen tot diensten van verschillende aanbieders.</p>',
+    'question_log_in'                   =>      'Hoe werkt inloggen via OpenConext?',
     'answer_log_in'                     =>      '<ul>
-                            <li>Je selecteert in dit scherm je eigen instelling.</li>
-                            <li>Je wordt doorgestuurd naar een inlogpagina van je eigen instelling.Daar log je in.</li>
-                            <li>Je instelling geeft door aan SURFconext dat je succesvol bent ingelogd.</li>
-                            <li>Je wordt doorgestuurd naar de dienst waarop je hebt ingelogd om deze te gaan gebruiken.</li>
+                            <li>U selecteert in dit scherm uw eigen organisatie.</li>
+                            <li>U wordt doorgestuurd naar een inlogpagina van uw eigen organisatie. Daar logt u in.</li>
+                            <li>Uw organisatie geeft door aan OpenConext dat u succesvol bent ingelogd.</li>
+                            <li>U wordt doorgestuurd naar de dienst waarop u hebt ingelogd om deze te gaan gebruiken.</li>
                         </ul>',
-    'question_security'                 =>      'Is de SURFconext infrastructuur veilig?',
-    'answer_security'                   =>      '<p>Jouw instelling en SURFnet hechten veel belang aan de privacy van gebruikers.<br />
+    'question_security'                 =>      'Is de OpenConext infrastructuur veilig?',
+    'answer_security'                   =>      '<p>Uw organisatie en SSC-ICT hechten veel belang aan de privacy van gebruikers.<br />
 <br />
-Persoonsgegevens worden alleen verstrekt aan een dienstaanbieder wanneer dat noodzakelijk is voor het gebruik van de dienst. Contractuele afspraken tussen jouw instelling, SURFnet en de dienstaanbieder waarborgen dat er zorgvuldig wordt omgegaan met jouw persoonsgegevens.<br />
+Persoonsgegevens worden alleen verstrekt aan een dienstaanbieder wanneer dat noodzakelijk is voor het gebruik van de dienst. Contractuele afspraken tussen uw organisatie, SSC-ICT en de dienstaanbieder waarborgen dat er zorgvuldig wordt omgegaan met uw persoonsgegevens.<br />
 <br />
-Het privacybeleid voor deze dienstverlening is in detail beschreven en na te lezen op <a href="https://wiki.surfnet.nl/display/conextsupport/">de SURFconext support pagina</a>. Heb je vragen ten aanzien van het privacybeleid van SURFconext, mail deze dan naar de SURFconext helpdesk via <a href="mailto:help@surfconext.nl">help@surfconext.nl</a>.
+Heeft u vragen ten aanzien van het privacybeleid van SSC-ICT, mail deze dan naar de beheerders via <a href="mailto:FederatieveServices@minbzk.nl">FederatieveServices.minbzk.nl</a>.
 </p>',
 
     	// consent help questions
     'question_consentscreen'           	=>      'Waarom dit scherm?',
     'answer_consentscreen'             	=>      '<p>Om toegang te krijgen tot deze dienst is het noodzakelijk dat een aantal persoonlijke gegevens wordt gedeeld met deze dienst.</p>',
     'question_consentinfo'           	=>      'Wat gebeurt er met mijn gegevens?',
-    'answer_consentinfo'             	=>      '<p>Indien je akkoord gaat met het verstrekken van je gegevens aan de dienst dan zullen de getoonde gegevens met deze dienst gedeeld worden. De dienstverlener zal de gegevens gebruiken en mogelijk opslaan voor een goede werking van de dienst. Op dit scherm vind je tevens een link naar de gebruiksvoorwaarden van de dienst en SURFconext welke meer informatie geven over de omgang met persoonlijke gegevens.</p>',
+    'answer_consentinfo'             	=>      '<p>Indien u akkoord gaat met het verstrekken van uw gegevens aan de dienst dan zullen de getoonde gegevens met deze dienst gedeeld worden. De dienstverlener zal de gegevens gebruiken en mogelijk opslaan voor een goede werking van de dienst.</p>',
     'question_consentno'           		=>      'Wat gebeurt er als ik mijn gegevens niet wil delen?',
-    'answer_consentno'             		=>      '<p>Als je niet akkoord gaat met het delen van je gegevens kun je geen gebruik maken van de dienst. De getoonde gegevens zullen in dit geval niet met de dienst worden gedeeld.</p>',
+    'answer_consentno'             		=>      '<p>Als u niet akkoord gaat met het delen van uw gegevens kun u geen gebruik maken van de dienst. De getoonde gegevens zullen in dit geval niet met de dienst worden gedeeld.</p>',
     'question_consentagain'           	=>      'Ik heb eerder al toestemming gegeven voor het delen van mijn gegevens, waarom krijg ik deze vraag opnieuw?',
-    'answer_consentagain'             	=>      '<p>Indien de gegevens die doorgegeven worden aan deze dienst zijn gewijzigd zal er nogmaals gevraagd worden of je akkoord gaat met het delen van jouw gegevens.</p>',
+    'answer_consentagain'             	=>      '<p>Indien de gegevens die doorgegeven worden aan deze dienst zijn gewijzigd zal er nogmaals gevraagd worden of u akkoord gaat met het delen van uw gegevens.</p>',
 
 		// WAYF help questions
     'question_screen'                   =>      'Waarom dit scherm?',
-    'answer_screen'                     =>      '<p>Je kunt met je instellingsaccount inloggen bij deze dienst. In dit scherm geef je aan via welke instelling je wilt inloggen.</p>',
-    'question_institution_not_listed'   =>      'Ik zie mijn instelling er niet tussen staan, wat nu?',
-    'answer_institution_not_listed'     =>      '<p>Staat jouw instelling niet in de lijst? Dan is jouw instelling waarschijnlijk nog niet aangesloten op SURFconext. Ga terug naar de pagina van de dienst; soms biedt een dienst ook alternatieve manieren om in te loggen.</p>',
-    'question_institution_no_access'    =>      'Mijn instelling geeft geen toegang tot deze dienst, wat nu?',
-    'answer_institution_no_access'      =>      '<p>Het kan zijn dat je instelling wel is aangesloten op SURFconext maar (nog) geen afspraken heeft gemaakt met de dienstaanbieder over het gebruik van deze dienst. Wij zullen je verzoek doorsturen naar de verantwoordelijke binnen jouw instelling die de toegang tot diensten organiseert. Wellicht is jouw verzoek voor je instelling aanleiding om alsnog afspraken met deze dienstaanbieder te maken.</p>',
-    'question_asked_institution_access'  =>      'Ik heb toegang aangevraagd voor mijn instelling, maar mijn instelling geeft nog steeds geen toegang. Waarom niet?',
-    'answer_asked_institution_access'    =>      '<p>Blijkbaar is jouw instelling nog niet tot een overeenkomst met de dienstaanbieder gekomen of, het gebruik van deze dienst is niet wenselijk binnen jouw instelling. SURFnet heeft geen controle over de snelheid waarmee je antwoord of toegang krijgt. Die verantwoordelijkheid en zeggenschap ligt bij de instelling.</p>',
+    'answer_screen'                     =>      '<p>U kunt met uw organisatieaccount inloggen bij deze dienst. In dit scherm geeft u aan via welke organisatie u wilt inloggen.</p>',
+    'question_institution_not_listed'   =>      'Ik zie mijn organisatie er niet tussen staan, wat nu?',
+    'answer_institution_not_listed'     =>      '<p>Staat uw organisatie niet in de lijst? Dan is uw organisatie waarschijnlijk nog niet aangesloten op OpenConext. Ga terug naar de pagina van de dienst; soms biedt een dienst ook alternatieve manieren om in te loggen.</p>',
+    'question_institution_no_access'    =>      'Mijn organisatie geeft geen toegang tot deze dienst, wat nu?',
+    'answer_institution_no_access'      =>      '<p>Het kan zijn dat uw organisatie wel is aangesloten op OpenConext maar (nog) geen afspraken heeft gemaakt met de dienstaanbieder over het gebruik van deze dienst. Wij zullen uw verzoek doorsturen naar de verantwoordelijke binnen uw organisatie die de toegang tot diensten organiseert. Wellicht is uw verzoek voor uw organisatie aanleiding om alsnog afspraken met deze dienstaanbieder te maken.</p>',
+    'question_asked_institution_access'  =>      'Ik heb toegang aangevraagd voor mijn organisatie, maar mijn organisatie geeft nog steeds geen toegang. Waarom niet?',
+    'answer_asked_institution_access'    =>      '<p>Blijkbaar is uw organisatie nog niet tot een overeenkomst met de dienstaanbieder gekomen of, het gebruik van deze dienst is niet wenselijk binnen uw organisatie. SSC-ICT heeft geen controle over de snelheid waarmee u antwoord of toegang krijgt. Die verantwoordelijkheid en zeggenschap ligt bij de organisatie.</p>',
     'question_cannot_select'            =>      'Ik kan in mijn browser mijn instelling niet selecteren, wat nu?',
-    'answer_cannot_select'              =>      '<p>Het keuzescherm van SURFconext is te gebruiken in de meest gangbare browsers waaronder, Internet Explorer, Firefox, Chrome en Safari. Andere browsers worden mogelijk niet ondersteund. Verder moet je browser het gebruik van cookies en javascript toestaan.</p>',
+    'answer_cannot_select'              =>      '<p>Het keuzescherm van OpenConext is te gebruiken in de meest gangbare browsers waaronder, Internet Explorer, Firefox, Chrome en Safari. Andere browsers worden mogelijk niet ondersteund. Verder moet uw browser het gebruik van cookies en javascript toestaan.</p>',
 
     // Request Access Form
     'sorry'                 => 'Helaas,',
     'form_description'      => 'heeft geen toegang tot deze dienst. Wat nu?</h2>
-            <p>Wil je toch graag toegang tot deze dienst, vul dan
-      het onderstaande formulier in. Wij sturen je verzoek door naar de juiste persoon binnen jouw instelling.</p>',
-    'request_access_instructions' => '<h2>Helaas, je hebt geen toegang tot de dienst die je zoekt. Wat nu?</h2>
-                                <p>Wil je toch graag toegang tot deze dienst, vul dan het onderstaande formulier in.
-                                   Wij sturen je verzoek door naar de juiste persoon binnen jouw instelling.</p>',
+            <p>Wilt u toch graag toegang tot deze dienst, vul dan
+      het onderstaande formulier in. Wij sturen uw verzoek door naar de juiste persoon binnen uw organisatie.</p>',
+    'request_access_instructions' => '<h2>Helaas, u heeft geen toegang tot de dienst die u zoekt. Wat nu?</h2>
+                                <p>Wilt u toch graag toegang tot deze dienst, vul dan het onderstaande formulier in.
+                                   Wij sturen uw verzoek door naar de juiste persoon binnen uw organisatie.</p>',
     'name'                  => 'Naam',
-    'name_error'            => 'Vul je naam in',
+    'name_error'            => 'Vul uw naam in',
     'email'                 => 'E-mail',
-    'email_error'           => 'Vul je (correcte) e-mailadres in',
+    'email_error'           => 'Vul uw (correcte) e-mailadres in',
     'institution'           => 'Instelling',
-    'institution_error'     => 'Vul jouw instelling in',
+    'institution_error'     => 'Vul uw organisatie in',
     'comment'               => 'Toelichting',
     'comment_error'         => 'Vul een toelichting in',
     'cancel'                => 'Annuleren',
     'send'                  => 'Verstuur',
     'close'                 => 'Sluiten',
 
-    'send_confirm'          => 'Je verzoek is verzonden',
-    'send_confirm_desc'     => '<p>SURFnet stuurt je verzoek door aan de juiste persoon binnen jouw instelling. Het is aan deze persoon om actie te ondernemen op basis van jouw verzoek. Het kan zijn dat er nog afspraken gemaakt moeten worden tussen jouw instelling en de dienstaanbieder.</p>
+    'send_confirm'          => 'Uw verzoek is verzonden',
+    'send_confirm_desc'     => '<p>SSC-ICT stuurt uw verzoek door aan de juiste persoon binnen uw organisatie. Het is aan deze persoon om actie te ondernemen op basis van uw verzoek. Het kan zijn dat er nog afspraken gemaakt moeten worden tussen uw organisatie en de dienstaanbieder.</p>
 
-    <p>SURFnet faciliteert het doorsturen van je verzoek maar heeft geen controle over de snelheid waarmee je antwoord of toegang krijgt.</p>
+    <p>SSC-ICT faciliteert het doorsturen van uw verzoek maar heeft geen controle over de snelheid waarmee u antwoord of toegang krijgt.</p>
 
-    <p>Heb je vragen over je verzoek, neem dan contact op met <a href="mailto:help@surfconext.nl">help@surfconext.nl</a></p>',
+    <p>Heeft u vragen over uw verzoek, neem dan contact op met <a href="mailto:FederatieveServices@minbzk.nl">FederatieveServices@minbzk.nl</a></p>',
 
     // Delete User
-    'deleteuser_success_header'         => 'SURFconext exit procedure',
+    'deleteuser_success_header'         => 'OpenConext exit procedure',
     'deleteuser_success_subheader'      => 'U bent bijna klaar...',
-    'deleteuser_success_desc'           => '<strong>Belangrijk!</strong> Om de exit procedure succesvol af te ronden, moet je nu de browser afsluiten.',
+    'deleteuser_success_desc'           => '<strong>Belangrijk!</strong> Om de exit procedure succesvol af te ronden, moet u nu de browser afsluiten.',
 
 
     // Consent
     'external_link'                     => 'opent in een nieuw venster',
-    'consent_header'                    => '%s verzoekt jouw informatie',
-    'consent_subheader'                 => '%s verzoekt jouw informatie',
+    'consent_header'                    => '%s verzoekt uw informatie',
+    'consent_subheader'                 => '%s verzoekt uw informatie',
     'consent_intro'                     => '%s verzoekt deze informatie die %s voor jou heeft opgeslagen:',
     'consent_idp_provides'              => 'wilt de volgende informatie vrijgeven:',
     'consent_sp_is_provided'            => 'aan',
@@ -148,83 +148,83 @@ Het privacybeleid voor deze dienstverlening is in detail beschreven en na te lez
 
     'consent_accept'                    => 'Ja, deel deze gegevens',
     'consent_decline'                   => 'Nee, ik wil geen gebruik maken van deze dienst',
-    'consent_notice'                    => '(We zullen dit nogmaals vragen als jouw informatie wijzigt)',
+    'consent_notice'                    => '(We zullen dit nogmaals vragen als uw informatie wijzigt)',
 
     // New Consent
-    'consent_header_info'               => 'Verzoek voor doorgeven van jouw informatie',
-    'consent_sp_idp_info'               => 'Om met je instellingsaccount in te kunnen loggen op de dienst <strong class="service-provider">%1$s</strong> maakt <strong class="identity-provider">%2$s</strong> gebruik van SURFconext. Voor het functioneren van deze dienst is het noodzakelijk dat <strong class="identity-provider">%2$s</strong> een aantal gegevens via SURFconext deelt met deze dienst. Hiervoor is jouw toestemming nodig. Het gaat om de volgende gegevens:',
+    'consent_header_info'               => 'Verzoek voor doorgeven van uw informatie',
+    'consent_sp_idp_info'               => 'Om met uw organisatieaccount in te kunnen loggen op de dienst <strong class="service-provider">%1$s</strong> maakt <strong class="identity-provider">%2$s</strong> gebruik van OpenConext. Voor het functioneren van deze dienst is het noodzakelijk dat <strong class="identity-provider">%2$s</strong> een aantal gegevens via OpenConext deelt met deze dienst. Hiervoor is uw toestemming nodig. Het gaat om de volgende gegevens:',
     'sp_terms_of_service'               => 'Bekijk de %s\'s <a href="%s" target="_blank">gebruiksvoorwaarden</a>',
-    'name_id'                           => 'SURFconext gebruikers ID',
+    'name_id'                           => 'OpenConext gebruikers ID',
 
     // Error screens
     'error_404'                         => '404 - Pagina niet gevonden',
     'error_404_desc'                    => 'De pagina is niet gevonden.',
     'error_help_desc'                   => '<p>
-        Bezoek <a href="https://support.surfconext.nl/" target="_blank">de SURFconext support pagina\'s</a> voor ondersteuning bij deze foutmelding. Hier kun je ook vinden hoe je contact kunt opnemen met het supportteam als de fout aanblijft.
+        Bezoek <a href="https://support.surfconext.nl/" target="_blank">de OpenConext support pagina\'s</a> voor ondersteuning bij deze foutmelding. Hier kunt u ook vinden hoe u contact kunt opnemen met het supportteam als de fout aanblijft.
     </p>',
     'error_no_consent'                  => 'Niet mogelijk om verder te gaan naar dienst',
     'error_no_consent_desc'             => 'Deze applicatie kan enkel worden gebruikt wanneer de vermelde informatie wordt gedeeld.<br /><br />
 
-Als je deze applicatie wilt gebruiken moet je:<br />
+Als u deze applicatie wilt gebruiken moet u:<br />
 <ul><li>de browser herstarten</li>
 <li>opnieuw inloggen</li>
-<li>jouw informatie delen</li></ul>',
-    'error_no_idps'                     => 'Error - Geen instellingen gevonden',
+<li>uw informatie delen</li></ul>',
+    'error_no_idps'                     => 'Error - Geen organisaties gevonden',
     'error_no_idps_desc'                => '<p>
-        De dienst die je probeert te benaderen (de &lsquo;Service Provider&rsquo;) is niet toegankelijk via de SURFconext-infrastructuur.<br /><br />
-        Bezoek <a href="https://wiki.surfnet.nl/pages/viewpage.action?pageId=54691917" target="_blank">de SURFconext support pagina\'s</a> voor meer ondersteuning bij deze foutmelding, als je denkt daadwerkelijk toegang te moeten hebben tot deze dienst.
+        De dienst die u probeert te benaderen (de &lsquo;Service Provider&rsquo;) is niet toegankelijk via de OpenConext-infrastructuur.<br /><br />
+        Bezoek <a href="https://wiki.surfnet.nl/pages/viewpage.action?pageId=54691917" target="_blank">de OpenConext support pagina\'s</a> voor meer ondersteuning bij deze foutmelding, als u denkt daadwerkelijk toegang te moeten hebben tot deze dienst.
         <br /><br />
     </p>',
     'error_session_lost'                => 'Error - Sessie is verloren gegaan',
     'error_session_lost_desc'           => '<p>
-We weten helaas niet waar je heen wilt. Heb je te lang gewacht? Probeer het dan eerst opnieuw. Accepteert je browser wel cookies? Maak je gebruik van een te oude link of bookmark?<br /><br />
-Bezoek <a href="https://wiki.surfnet.nl/pages/viewpage.action?pageId=52331093" target="_blank">de SURFconext support pagina\'s</a> voor meer ondersteuning bij deze foutmelding. Hier kun je ook vinden hoe je contact kunt opnemen met het supportteam als de fout aanblijft.
+We weten helaas niet waar u heen wilt. Heeft u te lang gewacht? Probeer het dan eerst opnieuw. Accepteert uw browser wel cookies? Maakt u gebruik van een te oude link of bookmark?<br /><br />
+Bezoek <a href="https://wiki.surfnet.nl/pages/viewpage.action?pageId=52331093" target="_blank">de OpenConext support pagina\'s</a> voor meer ondersteuning bij deze foutmelding. Hier kun u ook vinden hoe u contact kunt opnemen met het supportteam als de fout aanblijft.
         <br /><br />
     </p>',
     'error_dissimilar_workflow_state'       => 'Error - Verschillende productie statussen',
     'error_dissimilar_workflow_state_desc'  => '<p>
-De dienst die je probeert te benaderen (de &lsquo;Service Provider&rsquo;) is nog niet beschikbaar via de SURFconext infrastructuur.
-Ga alstublieft <a href="javascript:history.back();">terug</a> en neem contact op met de helpdesk van SURFconext via <a href="mailto:help@surfconext.nl">help@surfconext.nl</a>.
+De dienst die u probeert te benaderen (de &lsquo;Service Provider&rsquo;) is nog niet beschikbaar via de OpenConext infrastructuur.
+Ga alstublieft <a href="javascript:history.back();">terug</a> en neem contact op met de beheerders van SSC-ICT via <a href="mailto:FederatieveServices@minbzk.nl">FederatieveServices@minbzk.nl</a>.
 <br /><br />
 </p>',
     'error_authorization_policy_violation'            => 'Error - Geen toegang',
     'error_authorization_policy_violation_desc'       => '<p>
-        Je bent succesvol ingelogd bij jouw instelling, maar je kunt geen gebruik maken van deze dienst omdat je geen toegang hebt. Voor deze dienst (de &lsquo;Service Provider&rsquo;) heeft jouw instelling met <i>autorisatieregels</i> ingesteld dat alleen bepaalde gebruikers toegang krijgen. Neem contact op met de (IT-)servicedesk van je instelling als je vindt dat je wel toegang moet hebben.
+        U bent succesvol ingelogd bij uw organisatie, maar u kunt geen gebruik maken van deze dienst omdat u geen toegang heeft. Voor deze dienst (de &lsquo;Service Provider&rsquo;) heeft uw organisatie met <i>autorisatieregels</i> ingesteld dat alleen bepaalde gebruikers toegang krijgen. Neem contact op met de (IT-)servicedesk van uw organisatie als u vindt dat u wel toegang moet hebben.
     </p>',
     'error_authorization_policy_violation_name'       => 'Omschrijving autorisatieregels',
-    'error_authorization_policy_violation_info'       => 'Bericht van je instelling: ',
+    'error_authorization_policy_violation_info'       => 'Bericht van uw organisatie: ',
     'error_no_message'                  => 'Error - Geen bericht ontvangen',
     'error_no_message_desc'             => 'We verwachtten een bericht, maar we hebben er geen ontvangen. Er is iets fout gegaan. Probeer het alstublieft opnieuw.',
     'error_invalid_acs_location'        => 'De opgegeven "Assertion Consumer Service" is onjuist of bestaat niet.',
     'error_invalid_acs_binding'        => 'Onjuist ACS Binding Type',
     'error_invalid_acs_binding_desc'        => 'Het opgegeven of geconfigureerde "Assertion Consumer Service" Binding Type is onjuist of bestaat niet.',
-    'error_unknown_preselected_idp' => 'Error - Instelling is niet gekoppeld aan dienst',
+    'error_unknown_preselected_idp' => 'Error - Organisatie is niet gekoppeld aan dienst',
     'error_unknown_preselected_idp_desc' => '<p>
-        De instelling waarmee je wilt inloggen heeft toegang tot deze dienst niet geactiveerd. Dat betekent dat jij geen gebruik kunt maken van deze dienst via SURFconext. Neem contact op met de helpdesk van jouw instelling als je toegang wilt krijgen tot deze dienst. Geef daarbij aan om welke dienst het gaat (de &lsquo;Service Provider&rsquo;) en waarom je toegang wilt.
+        De organisatie waarbij u wilt inloggen heeft toegang tot deze dienst niet geactiveerd. Dat betekent dat jij geen gebruik kunt maken van deze dienst via OpenConext. Neem contact op met de helpdesk van uw organisatie als u toegang wilt krijgen tot deze dienst. Geef daarbij aan om welke dienst het gaat (de &lsquo;Service Provider&rsquo;) en waarom u toegang wilt.
     </p>',
     'error_unknown_service_provider'              => 'Error - Kan geen metadata ophalen voor EntityID \'%s\'',
     'error_unknown_service_provider_desc'     => '<p>
         Er kon geen Service Provider worden gevonden met het opgegeven EntityID.
-        Neem contact op met de SURFconext helpdesk op <a href="mailto:help@surfconext.nl">help@surfconext.nl</a>.
+        Neem contact op met de beheerders op <a href="mailto:FederatieveServices@minbzk.nl">FederatieveServices@minbzk.nl</a>.
     </p>',
 
     'error_unknown_issuer'              => 'Error - Onbekende dienst',
     'error_unknown_issuer_desc'     => '<p>
-Je aangevraagde dienst kon niet worden gevonden. Bezoek <a href="https://wiki.surfnet.nl/pages/viewpage.action?pageId=53018683" target="_blank">de SURFconext support pagina\'s</a> voor meer ondersteuning bij deze foutmelding.
+De door u aangevraagde dienst kon niet worden gevonden. Bezoek <a href="https://wiki.surfnet.nl/pages/viewpage.action?pageId=53018683" target="_blank">de OpenConext support pagina\'s</a> voor meer ondersteuning bij deze foutmelding.
     </p>',
     'error_generic'                     => 'Error - Foutmelding',
     'error_generic_desc'                => '<p>
-Inloggen is niet gelukt en we kunnen je niet precies vertellen waarom. Probeer het eerst eens opnieuw, en bezoek anders <a href="https://wiki.surfnet.nl/pages/viewpage.action?pageId=52331091" target="_blank">de SURFconext support pagina\'s</a> voor ondersteuning bij deze foutmelding. Hier kun je ook vinden hoe je contact kunt opnemen met het supportteam als de fout aanblijft.
+Inloggen is niet gelukt en we kunnen u niet precies vertellen waarom. Probeer het eerst eens opnieuw, en bezoek anders <a href="https://wiki.surfnet.nl/pages/viewpage.action?pageId=52331091" target="_blank">de OpenConext support pagina\'s</a> voor ondersteuning bij deze foutmelding.
     </p>',
     'error_missing_required_fields'     => 'Error - Verplichte velden ontbreken',
     'error_missing_required_fields_desc'=> '<p>
-        Jouw instelling geeft niet de benodigde informatie vrij. Daarom kun je deze applicatie niet gebruiken.
+        Uw organisatie geeft niet de benodigde informatie vrij. Daarom kunt u deze applicatie niet gebruiken.
     </p>
     <p>
-        Neem alstublieft contact op met jouw instelling. Geef hierbij de onderstaande informatie door.
+        Neem alstublieft contact op met uw organisatie. Geef hierbij de onderstaande informatie door.
     </p>
     <p>
-        Omdat je instelling niet de juiste attributen aan SURFconext doorgeeft is het inloggen mislukt. De volgende attributen zijn vereist om succesvol in te loggen op het SURFconext platform:
+        Omdat uw organisatie niet de juiste attributen aan OpenConext doorgeeft is het inloggen mislukt. De volgende attributen zijn vereist om succesvol in te loggen via het OpenConext platform:
         <ul>
             <li>UID</li>
             <li>schacHomeOrganization</li>
@@ -233,19 +233,19 @@ Inloggen is niet gelukt en we kunnen je niet precies vertellen waarom. Probeer h
     'error_group_oauth'            =>  'Error - Groepautorisatie is mislukt',
     'error_group_oauth_desc'       => '<p>
         De extere groepprovider <b>%s</b> retourneerde een fout.<br />
-        Neem contact op met de SURFconext helpdesk via <a href="mailto:help@surfconext.nl">help@surfconext.nl</a>.
+        Neem contact op met de beheerders via <a href="mailto:FederatieveServices@minbzk.nl">FederatieveServices@minbzk.nl</a>.
         <br />
     </p>',
 
     'error_received_error_status_code'     => 'Error - Fout bij Identity Provider',
     'error_received_error_status_code_desc'=> '<p>
-Je instelling heeft je de toegang geweigerd tot deze dienst. Je zult dus contact moeten opnemen met de (IT-)servicedesk van je eigen instelling om te kijken of dit verholpen kan worden.
+Uw organisatie heeft u de toegang geweigerd tot deze dienst. U zult dus contact moeten opnemen met de (IT-)servicedesk van uw eigen organisatie om te kijken of dit verholpen kan worden.
     </p>',
     'error_received_invalid_response'        => 'Error - Ongeldig antwoord van Identity Provider',
     'error_received_invalid_signed_response' => 'Error - Ongeldige handtekening op antwoord Identity Provider',
-    'error_stuck_in_authentication_loop' => 'Error - Je zat vast in een zwart gat',
+    'error_stuck_in_authentication_loop' => 'Error - U zat vast in een oneindige lus',
     'error_stuck_in_authentication_loop_desc' => '<p>
-        Je bent succesvol ingelogd bij je Identity Provider maar de dienst waar je naartoe wilt stuurt je weer terug naar SURFconext. Omdat je succesvol bent ingelogd, stuurt SURFconext je weer naar de dienst, wat resulteert in een oneindig zwart gat. Dit komt waarschijnlijk door een foutje aan de kant van de dienst. Bezoek <a href="https://support.surfconext.nl" target="_blank">de SURFconext support pagina\'s</a> voor meer ondersteuning bij deze foutmelding.
+        U bent succesvol ingelogd bij uw organisatie maar de dienst waar u naartoe wilt stuurt u weer terug naar OpenConext. Omdat u succesvol bent ingelogd, stuurt OpenConext u weer naar de dienst, wat resulteert in een oneindig lus. Dit komt waarschijnlijk door een foutje aan de kant van de dienst. Bezoek <a href="https://support.surfconext.nl" target="_blank">de OpenConext support pagina\'s</a> voor meer ondersteuning bij deze foutmelding.
     </p>',
 
     /**
@@ -264,7 +264,7 @@ Je instelling heeft je de toegang geweigerd tot deze dienst. Je zult dus contact
     'error_attribute_validator_min'                 => '%1$s heeft minimaal %2$d waardes nodig (%3$d gegeven)',
     'error_attribute_validator_max'                 => '%1$s heeft maximaal %2$d waardes (%3$d gegeven)',
     'error_attribute_validator_regex'               => '\'%3$s\' voldoet niet aan de voorwaarden voor waardes van dit attribuut (%2$s)',
-    'error_attribute_validator_not_in_definitions'  => '%1$s is niet bekend in het SURFconext schema',
+    'error_attribute_validator_not_in_definitions'  => '%1$s is niet bekend in het OpenConext schema',
     'error_attribute_validator_allowed'             => '\'%3$s\' is geen toegestane waarde voor dit attribuut',
     'error_attribute_validator_availability'        => '\'%3$s\' is a gereserveerde SchacHomeOrganization voor een andere Identity Provider',
 
@@ -276,16 +276,16 @@ Je instelling heeft je de toegang geweigerd tot deze dienst. Je zult dus contact
 
     'attributes' => 'Attributen',
     'validation' => 'Validatie',
-    'idp_debugging_mail_explain' => 'Indien gevraagd door SURFconext,
-                                        gebruik de "Mail naar SURFconext" knop hieronder
-                                        om de informatie op dit scherm naar SURFconext beheer te e-mailen.',
-    'idp_debugging_mail_button' => 'Mail naar SURFconext',
+    'idp_debugging_mail_explain' => 'Indien gevraagd door de beheerders,
+                                        gebruik de "Mail naar SSC-ICT" knop hieronder
+                                        om de informatie op dit scherm naar de beheerders te e-mailen.',
+    'idp_debugging_mail_button' => 'Mail naar SSC-ICT',
 
     // Logout
     'logout' => 'uitloggen',
-    'logout_description' => 'Deze applicatie maakt gebruik van centrale login. Hiermee is het mogelijk om met single sign on bij verschillende applicaties in te loggen. Om er 100% zeker van te zijn dat je uitgelogd bent, moet je de browser helemaal afsluiten.',
+    'logout_description' => 'Deze applicatie maakt gebruik van centrale login. Hiermee is het mogelijk om met single sign on bij verschillende applicaties in te loggen. Om er 100% zeker van te zijn dat u uitgelogd bent, moet u de browser helemaal afsluiten.',
     'logout_information_link' => '<a href="https://wiki.surfnet.nl/display/conextsupport/Uitloggen+SURFconext">Meer informatie over veilig uitloggen</a>',
 
     // Internal
-    'info_mail_link' => '<a href="support@surfconext.nl">support@surfconext.nl</a>',
+    'info_mail_link' => '<a href="FederatieveServices@minbzk.nl">FederatieveServices@minbzk.nl</a>',
 );
