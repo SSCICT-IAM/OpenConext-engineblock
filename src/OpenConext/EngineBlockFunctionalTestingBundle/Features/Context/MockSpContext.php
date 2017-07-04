@@ -440,6 +440,34 @@ class MockSpContext extends AbstractSubContext
     }
 
     /**
+     * @Given /^SP "([^"]*)" allows an attribute named "([^"]*)" and configures it for aggregation from "([^"]*)"$/
+     */
+    public function spAllowsAnAttributeWithNameFromSource($spName, $arpAttribute, $attributeSource)
+    {
+        /** @var MockServiceProvider $sp */
+        $sp = $this->mockSpRegistry->get($spName);
+
+        $this->serviceRegistryFixture
+            ->allowAttributeValue($sp->entityId(), $arpAttribute, "*", $attributeSource)
+            ->save();
+    }
+
+    /**
+     * @Given /^SP "([^"]*)" allows the following attributes:$/
+     */
+    public function spAllowsGivenAttributes($spName, TableNode $attributes)
+    {
+        /** @var MockServiceProvider $sp */
+        $sp = $this->mockSpRegistry->get($spName);
+
+        foreach ($attributes->getHash() as $attribute) {
+            $this->serviceRegistryFixture
+                ->allowAttributeValue($sp->entityId(), $attribute['Name'], $attribute['Value'], $attribute['Source'])
+                ->save();
+        }
+    }
+
+    /**
      * @Given /^SP "([^"]*)" uses the Unspecified NameID format$/
      */
     public function spUsesTheUnspecifiedNameidFormat($spName)
@@ -526,6 +554,20 @@ class MockSpContext extends AbstractSubContext
 
         $this->serviceRegistryFixture
             ->spRequiresPolicyEnforcementDecision($sp->entityId())
+            ->save();
+    }
+
+    /**
+     * @Given /^SP "([^"]*)" requires attribute aggregation$/
+     * @param string $spName
+     */
+    public function spRequiresAttributeAggregation($spName)
+    {
+        /** @var MockServiceProvider $mockSp */
+        $mockSp = $this->mockSpRegistry->get($spName);
+
+        $this->serviceRegistryFixture
+            ->requireAttributeAggregation($mockSp->entityId())
             ->save();
     }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "44ca426d471214eee863f212f6fe5ff4",
+    "content-hash": "cfa2f6064c5ea59335d7258baca39aea",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -1517,16 +1517,16 @@
         },
         {
             "name": "openconext/engineblock-metadata",
-            "version": "2.1.0",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenConext/OpenConext-engineblock-metadata.git",
-                "reference": "05ded4b0b0323378606f568c2d083f96da9e1026"
+                "reference": "831bf41b29036ec7923d5cbed2c7d6b5cfa45791"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenConext/OpenConext-engineblock-metadata/zipball/05ded4b0b0323378606f568c2d083f96da9e1026",
-                "reference": "05ded4b0b0323378606f568c2d083f96da9e1026",
+                "url": "https://api.github.com/repos/OpenConext/OpenConext-engineblock-metadata/zipball/831bf41b29036ec7923d5cbed2c7d6b5cfa45791",
+                "reference": "831bf41b29036ec7923d5cbed2c7d6b5cfa45791",
                 "shasum": ""
             },
             "require": {
@@ -1551,7 +1551,7 @@
                 "Apache-2.0"
             ],
             "description": "OpenConext component for EngineBlock Entity Metadata",
-            "time": "2016-12-14T15:48:28+00:00"
+            "time": "2017-07-03T07:15:30+00:00"
         },
         {
             "name": "openconext/saml-value-object",
@@ -3948,6 +3948,54 @@
             "time": "2015-05-11T14:41:42+00:00"
         },
         {
+            "name": "ingenerator/behat-tableassert",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ingenerator/behat-tableassert.git",
+                "reference": "368f34c082836446a12c91bd6e2014b2137dbe2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ingenerator/behat-tableassert/zipball/368f34c082836446a12c91bd6e2014b2137dbe2f",
+                "reference": "368f34c082836446a12c91bd6e2014b2137dbe2f",
+                "shasum": ""
+            },
+            "require": {
+                "behat/gherkin": ">=2.0.0 <5.0.0",
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "ext-simplexml": "*",
+                "php": "^5.5||^7.0"
+            },
+            "require-dev": {
+                "behat/mink": "^1.7",
+                "phpunit/phpunit": "^4.8"
+            },
+            "suggest": {
+                "behat/mink": "For parsing tables from a browser response"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ingenerator\\BehatTableAssert\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Coulton",
+                    "email": "andrew@ingenerator.com"
+                }
+            ],
+            "description": "Assertions for all sorts of tabular data in behat",
+            "homepage": "https://github.com/ingenerator/behat-tableassert",
+            "time": "2016-09-05T10:39:11+00:00"
+        },
+        {
             "name": "liip/functional-test-bundle",
             "version": "1.7.2",
             "source": {
@@ -4030,12 +4078,12 @@
             "version": "0.9.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/padraic/mockery.git",
+                "url": "https://github.com/mockery/mockery.git",
                 "reference": "70bba85e4aabc9449626651f48b9018ede04f86b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/padraic/mockery/zipball/70bba85e4aabc9449626651f48b9018ede04f86b",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/70bba85e4aabc9449626651f48b9018ede04f86b",
                 "reference": "70bba85e4aabc9449626651f48b9018ede04f86b",
                 "shasum": ""
             },
@@ -4313,7 +4361,7 @@
                     "name": "Manuel Pichler",
                     "email": "github@manuel-pichler.de",
                     "homepage": "https://github.com/manuelpichler",
-                    "role": "Project Founder"
+                    "role": "Project founder"
                 },
                 {
                     "name": "Other contributors",
