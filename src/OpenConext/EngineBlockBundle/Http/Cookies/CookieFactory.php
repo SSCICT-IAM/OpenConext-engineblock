@@ -41,7 +41,7 @@ final class CookieFactory
      * @param bool     $httpOnly
      * @param bool     $secure
      */
-    public function __construct($name, $domain, $expiryInSeconds = null, $httpOnly = false, $secure = false)
+    public function __construct($name, $domain, $expiryInSeconds = null, $httpOnly = true, $secure = true)
     {
         Assertion::boolean($httpOnly);
         Assertion::boolean($secure);

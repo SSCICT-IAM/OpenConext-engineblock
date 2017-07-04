@@ -153,6 +153,11 @@ Heeft u vragen ten aanzien van het privacybeleid van SSC-ICT, mail deze dan naar
     // New Consent
     'consent_header_info'               => 'Verzoek voor doorgeven van uw informatie',
     'consent_sp_idp_info'               => 'Om met uw organisatieaccount in te kunnen loggen op de dienst <strong class="service-provider">%1$s</strong> maakt <strong class="identity-provider">%2$s</strong> gebruik van OpenConext. Voor het functioneren van deze dienst is het noodzakelijk dat <strong class="identity-provider">%2$s</strong> een aantal gegevens via OpenConext deelt met deze dienst. Hiervoor is uw toestemming nodig. Het gaat om de volgende gegevens:',
+    'consent_aggregated_attributes_info' => '<strong class="service-provider">%1$s</strong> heeft ook toegang nodig tot gegevens uit de gegevensbron <strong class="attribute-source">%2$s</strong>. Het gaat om de volgende aanvullende gegevens:',
+    'consent_attribute_source_voot'     => 'Groepslidmaatschap',
+    'consent_attribute_source_sab'      => 'SURFnet Autorisatie Beheer',
+    'consent_attribute_source_orcid'    => 'ORCID iD',
+
     'sp_terms_of_service'               => 'Bekijk de %s\'s <a href="%s" target="_blank">gebruiksvoorwaarden</a>',
     'name_id'                           => 'OpenConext gebruikers ID',
 

@@ -2,10 +2,14 @@
 
 namespace OpenConext\EngineBlockFunctionalTestingBundle\Features\Context;
 
+use Behat\Gherkin\Node\TableNode;
 use Behat\Mink\Exception\ExpectationException;
 use DOMDocument;
 use DOMXPath;
 use EngineBlock_Saml2_IdGenerator;
+use Ingenerator\BehatTableAssert\AssertTable;
+use Ingenerator\BehatTableAssert\TableParser\HTMLTable;
+use OpenConext\EngineBlockFunctionalTestingBundle\Fixtures\FunctionalTestingAttributeAggregationClient;
 use OpenConext\EngineBlockFunctionalTestingBundle\Fixtures\FunctionalTestingAuthenticationLoopGuard;
 use OpenConext\EngineBlockFunctionalTestingBundle\Fixtures\FunctionalTestingFeatureConfiguration;
 use OpenConext\EngineBlockFunctionalTestingBundle\Fixtures\FunctionalTestingPdpClient;
@@ -90,6 +94,16 @@ class EngineBlockContext extends AbstractSubContext
     private $engineBlockDomain;
 
     /**
+     * @var FunctionalTestingAttributeAggregationClient
+     */
+    private $attributeAggregationClient;
+
+    /**
+     * @var boolean
+     */
+    private $usingAttributeAggregationClient = false;
+
+    /**
      * @param ServiceRegistryFixture $serviceRegistry
      * @param EngineBlock $engineBlock
      * @param EntityRegistry $mockSpRegistry
@@ -99,6 +113,9 @@ class EngineBlockContext extends AbstractSubContext
      * @param FunctionalTestingFeatureConfiguration $features
      * @param FunctionalTestingPdpClient $pdpClient
      * @param FunctionalTestingAuthenticationLoopGuard $authenticationLoopGuard
+     * @param FunctionalTestingAttributeAggregationClient $attributeAggregationClient
+     *
+     * @SuppressWarnings(PHPMD.ExcessiveParameterList)
      */
     public function __construct(
         ServiceRegistryFixture $serviceRegistry,
@@ -109,7 +126,8 @@ class EngineBlockContext extends AbstractSubContext
         $idpsConfigUrl,
         FunctionalTestingFeatureConfiguration $features,
         FunctionalTestingPdpClient $pdpClient,
-        FunctionalTestingAuthenticationLoopGuard $authenticationLoopGuard
+        FunctionalTestingAuthenticationLoopGuard $authenticationLoopGuard,
+        FunctionalTestingAttributeAggregationClient $attributeAggregationClient
     ) {
         $this->serviceRegistryFixture = $serviceRegistry;
         $this->engineBlock = $engineBlock;
@@ -120,6 +138,7 @@ class EngineBlockContext extends AbstractSubContext
         $this->features = $features;
         $this->pdpClient = $pdpClient;
         $this->authenticationLoopGuard = $authenticationLoopGuard;
+        $this->attributeAggregationClient = $attributeAggregationClient;
     }
 
     /**
@@ -230,6 +249,36 @@ class EngineBlockContext extends AbstractSubContext
         $mink = $this->getMainContext()->getMinkContext();
 
         $mink->pressButton('Submit');
+    }
+
+    /**
+     * @Then /^I should see the following "([^"]*)" attributes listed on the consent page:$/
+     */
+    public function iSeeTheAttributesFromSourceOnConsentPage($source, TableNode $attributes)
+    {
+        $mink = $this->getMainContext()->getMinkContext();
+        $tableSelector = 'table[data-attr-source="' . strtolower($source) . '"]';
+        $tableTemplate = <<<HTML
+<table>
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Value</td>
+        </tr>
+    </thead>
+    <tbody>%s</tbody>
+</table>
+HTML;
+
+        $actualTable = HTMLTable::fromHTMLString(
+            sprintf(
+                $tableTemplate,
+                $mink->assertSession()->elementExists('css', $tableSelector)->getHtml()
+            )
+        );
+
+        $assert = new \Ingenerator\BehatTableAssert\AssertTable;
+        $assert->isComparable($attributes, $actualTable, []);
     }
 
     /**
@@ -387,6 +436,16 @@ class EngineBlockContext extends AbstractSubContext
     /**
      * @AfterScenario
      */
+    public function cleanAttributeAggregator()
+    {
+        if ($this->usingAttributeAggregationClient) {
+            $this->attributeAggregationClient->returnsNothing();
+        }
+    }
+
+    /**
+     * @AfterScenario
+     */
     public function cleanUpPdp()
     {
         if ($this->usingPdp) {
@@ -488,5 +547,31 @@ class EngineBlockContext extends AbstractSubContext
     public function iGoToEngineblockURL($path)
     {
         $this->getMainContext()->getMinkContext()->visit($this->engineBlockDomain . $path);
+    }
+
+    /**
+     * @Given /^the attribute aggregator returns no attributes$/
+     */
+    public function aaReturnsNoAttributes()
+    {
+        $this->usingAttributeAggregationClient = true;
+
+        $this->attributeAggregationClient->returnsNothing();
+    }
+
+    /**
+     * @Given /^the attribute aggregator returns the attributes:$/
+     */
+    public function aaReturnsAttributes(TableNode $attributes)
+    {
+        $this->usingAttributeAggregationClient = true;
+
+        foreach ($attributes->getHash() as $attribute) {
+            $this->attributeAggregationClient->returnsAttribute(
+                $attribute['Name'],
+                explode(',', $attribute['Value']),
+                $attribute['Source']
+            );
+        }
     }
 }

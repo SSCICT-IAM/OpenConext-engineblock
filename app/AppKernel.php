@@ -58,11 +58,11 @@ class AppKernel extends Kernel
 
     public function getCacheDir()
     {
-        return $this->rootDir . '/cache/' . $this->environment;
+        return '/var/cache/openconext/engineblock';
     }
 
     public function getLogDir()
     {
-        return $this->rootDir . '/logs/' . $this->environment;
+        return '/var/log/openconext/engineblock';
     }
 }
