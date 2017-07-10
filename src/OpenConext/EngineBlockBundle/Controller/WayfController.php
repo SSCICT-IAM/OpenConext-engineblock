@@ -50,4 +50,13 @@ class WayfController
     {
         return new Response($this->engineBlockView->render('Authentication/View/IdentityProvider/HelpDiscover.phtml'));
     }
+
+    /**
+     * @return Response
+     * @throws \EngineBlock_Exception
+     */
+    public function CookieAction()
+    {
+        return new Response($this->engineBlockView->render('Authentication/View/IdentityProvider/RemoveCookie.phtml'));
+    }
 }

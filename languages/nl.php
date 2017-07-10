@@ -47,6 +47,9 @@ return array(
     'no_idp_results_request_access' => 'Kun je je instelling niet vinden? &nbsp;<a href="#no-access" class="noaccess">Vraag toegang aan</a>&nbsp;of pas je zoekopdracht aan.',
     'more_idp_results'          => '%d resultaten worden niet getoond. Verfijn je zoekopdracht voor specifiekere resultaten.',
     'return_to_sp'              => 'Keer terug naar Service Provider',
+    'cookie_removal_header'     => 'Keuze verwijderen',
+    'cookie_removal_description' => '<p>Door op onderstaande knop te drukken verwijdert u de eerder opgeslagen keuze van uw organisatie.<br />U krijgt dan eenmalig weer de keuze om uw organisatie te kiezen.</p>',
+    'cookie_removal_confirm'    => 'Uw eerdere organisatiekeuze is verwijderd.',
 
     //Footer
     'service_by'            => 'Deze dienst is verbonden via',

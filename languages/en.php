@@ -48,6 +48,9 @@ return array(
     'no_idp_results_request_access' => 'Can\'t find your institution? &nbsp;<a href="#no-access" class="noaccess">Request access</a>&nbsp;or try tweaking your search.',
     'more_idp_results'          => '%d results not shown. Refine your search to show more specific results.',
     'return_to_sp'              => 'Return to Service Provider',
+    'cookie_removal_header'     => 'Remove previous selection',
+    'cookie_removal_description' => '<p>By pressing the button below, your previous selection of organisation will be removed.<br />You will be able select your organisation again the next time you visit an application.</p>',
+    'cookie_removal_confirm'    => 'Your previous selection has been removed.',
 
     // Footer
     'service_by'            => 'This is a service connected through',
