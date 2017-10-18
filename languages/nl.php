@@ -164,9 +164,7 @@ Heeft u vragen ten aanzien van het privacybeleid van SSC-ICT, mail deze dan naar
     // Error screens
     'error_404'                         => '404 - Pagina niet gevonden',
     'error_404_desc'                    => 'De pagina is niet gevonden.',
-    'error_help_desc'                   => '<p>
-        Bezoek <a href="https://support.surfconext.nl/" target="_blank">de OpenConext support pagina\'s</a> voor ondersteuning bij deze foutmelding. Hier kunt u ook vinden hoe u contact kunt opnemen met het supportteam als de fout aanblijft.
-    </p>',
+    'error_help_desc'                   => '<p>Neem contact op met de servicedesk van uw eigen organisatie voor ondersteuning bij deze foutmelding.</p>',
     'error_no_consent'                  => 'Niet mogelijk om verder te gaan naar dienst',
     'error_no_consent_desc'             => 'Deze applicatie kan enkel worden gebruikt wanneer de vermelde informatie wordt gedeeld.<br /><br />
 
