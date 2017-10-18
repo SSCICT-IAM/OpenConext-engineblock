@@ -165,9 +165,7 @@ If you have any questions about your privacy and the policy applied, please cont
     //Error screens
     'error_404'                         => '404 - Page not found',
     'error_404_desc'                    => 'This page has not been found.',
-    'error_help_desc'               => '<p>
-        Please visit <a href="https://support.surfconext.nl/" target="_blank">the OpenConext support pages</a> for help solving this problem. These pages also contain contact information for the support team if the problem persists.
-    </p>',
+    'error_help_desc'               => '<p>Please contact the service desk within your own organisation for help solving this problem.</p>',
     'error_no_consent'              => 'Unable to continue to service',
     'error_no_consent_desc'         => 'This application can only be used when you share the mentioned information.<br /><br />
 
