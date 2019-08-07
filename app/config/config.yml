@@ -57,6 +57,8 @@ twig:
     debug: '%kernel.debug%'
     strict_variables: '%kernel.debug%'
     paths:
+        "%kernel.root_dir%/../theme/themerijksoverheid/templates/modules": theme
+        "%kernel.root_dir%/../theme/themerijksoverheid/templates/layouts": themeLayouts
         "%kernel.root_dir%/../theme/material/templates/modules": theme
         "%kernel.root_dir%/../theme/material/templates/layouts": themeLayouts
     globals:
